@@ -1,0 +1,46 @@
+@mixin grid($rows: null, $columns: null, $gap: null, $row-gap: null, $column-gap: null) {
+    display: grid;
+    grid-gap: $gap;
+    row-gap: $row-gap;
+    column-gap: $column-gap;
+    grid-template-rows: $rows;
+    grid-template-columns: $columns;
+}
+
+@mixin ellipsis($lines) {
+    @if $lines !=null {
+        display: -webkit-box;
+        -webkit-line-clamp: $lines;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    } @else {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        display: block;
+    }
+}
+
+@mixin scrollbars($size, $foreground-color, $background-color) {
+    // For Google Chrome
+    &::-webkit-scrollbar {
+        width: $size;
+        height: $size;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: $foreground-color;
+        border-radius: 4px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: $background-color;
+        border-radius: 4px;
+    }
+
+    // For Internet Explorer
+    & {
+        scrollbar-face-color: $foreground-color;
+        scrollbar-track-color: $background-color;
+    }
+}
