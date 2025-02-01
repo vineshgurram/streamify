@@ -1,1 +1,1 @@
-# React SASS Template
+# Streamify
