@@ -44,3 +44,14 @@
         scrollbar-track-color: $background-color;
     }
 }
+
+
+@mixin linear-gradient-grey{
+    background: rgb(224,225,226);
+    background: linear-gradient(90deg, rgba(224, 225, 226, 0) 0%, rgba(224, 225, 226, 1) 45%, rgba(224, 225, 226, 0.1563) 100%); 
+}
+
+@mixin linear-gradient-blue{
+    background: rgb(6, 11, 38);
+    background: linear-gradient(90deg, rgba(6, 11, 38, 1) 0%, rgba(26, 31, 55, 1) 100%);
+}

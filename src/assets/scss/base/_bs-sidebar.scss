@@ -1,0 +1,75 @@
+.bs-sidebar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 300px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    @include linear-gradient-blue;
+
+    & + .lyt-page{
+        
+    }
+
+    .sidebar-inner-wrapper {
+        .navbar {
+            padding: 23px;
+            .logo-wrapper {
+                margin-bottom: 30px;
+            }
+            .border {
+                @include linear-gradient-grey;
+                height: 2px;
+                width: 100%;
+            }
+            .navbar-list {
+                padding: 0;
+                list-style: none;
+                .nav-item {
+                    margin-bottom: 10px;
+                    .nav-link {
+                        padding: 12px;
+                        border-radius: 12px;
+                        transition: 500ms ease all;
+
+                        &.active {
+                            background-color: $clr-blue-dk;
+                            .icon {
+                                background-color: $clr-blue;
+                                &::before {
+                                    color: $clr-white;
+                                }
+                            }
+                        }
+
+                        &:hover {
+                            background-color: $clr-blue-dk;
+                            .icon {
+                                background-color: $clr-blue;
+                                &::before {
+                                    color: $clr-white;
+                                }
+                            }
+                        }
+
+                        .icon {
+                            padding: 8px;
+                            border-radius: 12px;
+                            font-size: 15px;
+                            margin-right: 15px;
+                            display: inline-block;
+                            background-color: $clr-blue-dk;
+                            transition: 500ms ease all;
+
+                            &::before {
+                                color: $clr-blue;
+                                transition: 500ms ease all;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

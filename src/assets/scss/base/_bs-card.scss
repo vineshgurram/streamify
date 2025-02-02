@@ -1,0 +1,7 @@
+.bs-card {
+    &.typ-key-metrics {
+        @include linear-gradient-blue;
+        border-radius: 20px;
+        padding: 22px;
+    }
+}

@@ -1,0 +1,26 @@
+.bs-para {
+    font-size: 12px;
+    line-height: 1.2;
+    color: $clr-grey;
+    letter-spacing: 0.5px;
+
+    &.typ14{
+        font-size: 14px;
+    }
+
+    &.typ500 {
+        font-weight: $font-medium;
+    }
+
+    &.typ600 {
+        font-weight: $font-semibold;
+    }
+
+    &.typ700 {
+        font-weight: $font-bold;
+    }
+    
+    &.typ400 {
+        font-weight: $font-regular;
+    }
+}

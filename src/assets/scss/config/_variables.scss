@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 //colors
 $clr-white:#ffffff;
-$clr-theme:#FF9500;
+$clr-theme:#060B26;
 $clr-black: #000000;
+$clr-blue:#0075FF;
+$clr-blue-dk:#1A1F37;
+$clr-grey:#A0AEC0;
+
 
 
 /* font weight */
@@ -21,3 +28,6 @@ $desktop-breakpoint: 1024px;
 $x-Large-devices-breakpoint: 1200px;
 $xl-Large-devices-breakpoint: 1366px;
 $xx-Large-devices-breakpoint: 1600px;
+
+
+$fnt1:"Roboto", serif;

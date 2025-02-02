@@ -1,3 +1,3 @@
-export default function PageNotFound(){
-    return <>Page Not Found</>
+export default function PageNotFound() {
+  return <div className="lyt-page">Page Not Found</div>;
 }

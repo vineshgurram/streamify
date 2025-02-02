@@ -1,6 +1,10 @@
+/* The following line can be included in a src/App.scss */
+@import 'bootstrap/scss/bootstrap';
+
+
 /* CONFIG */
 
-@import "config/mixin";
+@import "config/mixins";
 @import "config/variables";
 
 
@@ -11,14 +15,20 @@
 
 /* BASE INCLUDE */
 
-@import "base/bs-header";
-@import "base/bs-banner";
-@import "base/bs-btn";
-@import "base/bs-flex";
+@import "base/bs-sidebar";
+@import "base/bs-breadcrumb";
+@import "base/bs-heading";
+@import "base/bs-para";
+@import "base/bs-card";
+// @import "base/bs-header";
+// @import "base/bs-banner";
+// @import "base/bs-btn";
+// @import "base/bs-flex";
 
 
 /* LAYOUT */
 @import "layout/lyt-section";
+@import "layout/lyt-page";
 
 
 /* FONT */

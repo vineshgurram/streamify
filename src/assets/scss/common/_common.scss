@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: $clr-theme;
+    color: $clr-white;
+    font-family: $fnt1;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#root{
+    height: 100vh;
+    overflow: hidden;
+}

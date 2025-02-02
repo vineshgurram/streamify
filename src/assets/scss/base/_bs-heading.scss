@@ -1,0 +1,34 @@
+.bs-heading{
+    font-size: 40px;
+    line-height: 1.2;
+    color: $clr-white;
+    font-weight: 700;
+
+    &.typ20{
+        font-size: 20px;
+    }
+   
+    &.typ25{
+        font-size: 25px;
+    }
+    
+    &.typ30{
+        font-size: 30px;
+    }
+
+    &.typ500 {
+        font-weight: $font-medium;
+    }
+
+    &.typ600 {
+        font-weight: $font-semibold;
+    }
+
+    &.typ700 {
+        font-weight: $font-bold;
+    }
+    
+    &.typ400 {
+        font-weight: $font-regular;
+    }
+}

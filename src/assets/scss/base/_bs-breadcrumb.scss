@@ -1,0 +1,13 @@
+.bs-breadcrumb{
+ .breadcrumb{
+     color: $clr-grey;
+     
+     .breadcrumb-item.active{
+        color: $clr-white;
+
+        &::before{
+            color: $clr-white;
+        }
+    }
+ }   
+}
