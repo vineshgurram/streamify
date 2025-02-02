@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://vineshgurram.github.io/streamify",
+  "homepage": "https://vineshgurram.github.io/streamify/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
